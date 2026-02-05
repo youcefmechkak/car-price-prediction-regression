@@ -1,22 +1,38 @@
-# Car Price Prediction Project
+# Regression Models Comparison Project
 
-This project aims to develop a robust prediction system for car prices using various regression techniques. It explores data preprocessing, exploratory data analysis, and the comparison of different machine learning models to identify the most effective approach for price estimation.
+## Overview
+This project implements and compares several regression techniques to predict car prices using a real-world dataset. The goal is to study model performance, complexity, and generalization.
 
-## Project Structure
-- `PredictRegres.py`: .
-- `PredictRegres.ipynb`: The main script containing the initial exploration, visualization, the data processing and modeling logic.
-- `car_price.csv`: The dataset used for training and testing.
+## Methods Implemented
+- Linear Regression (baseline)
+- Polynomial Regression (multiple degrees)
+- Ridge Regression (L2 regularization)
+- Lasso Regression (L1 regularization)
 
-## Methodology
-1. **Preprocessing**: Handled unit conversion (Lakh/Crore), cleaned numerical strings, and managed categorical variables using One-Hot and Target Encoding.
-2. **Exploration**: Visualized distributions and correlations to identify patterns and outliers.
-3. **Modeling**: Implemented and compared the following:
-   - Simple Linear Regression
-   - Polynomial Regression (complexity analysis)
-   - Regularized Models (Ridge and Lasso)
-4. **Evaluation**: Models were assessed using Mean Squared Error (MSE) and Precision/R² scores via cross-validation.
+Both analytical solutions and gradient-based optimization are explored.
 
-## Installation
-Clone the repository and install the required packages:
-```bash
-pip install -r requirements.txt
+## Data Processing
+- Removal of irrelevant columns
+- Target encoding for categorical variables
+- Feature scaling (Min-Max and Standard scaling)
+- Exploratory data analysis using visualizations
+
+## Evaluation Metrics
+- Mean Squared Error (MSE)
+- Coefficient of Determination (R²)
+- Cross-validation for regularization parameters
+
+## Results
+Regularized models (Ridge/Lasso) demonstrate improved generalization compared to high-degree polynomial models, especially under limited data conditions.
+
+## Repository Structure
+- `src/`: main Python implementation
+- `notebooks/`: exploratory analysis
+- `data/`: dataset
+- `results/`: generated figures
+
+## Requirements
+See `requirements.txt`
+
+## Author
+Mini-project for regression analysis course.
