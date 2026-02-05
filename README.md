@@ -29,10 +29,6 @@ Regularized models (Ridge/Lasso) demonstrate improved generalization compared to
 - `src/`: main Python implementation
 - `notebooks/`: exploratory analysis
 - `data/`: dataset
-- `results/`: generated figures
 
 ## Requirements
 See `requirements.txt`
-
-## Author
-Mini-project for regression analysis course.
