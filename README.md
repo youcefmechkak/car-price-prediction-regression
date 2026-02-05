@@ -3,10 +3,9 @@
 This project aims to develop a robust prediction system for car prices using various regression techniques. It explores data preprocessing, exploratory data analysis, and the comparison of different machine learning models to identify the most effective approach for price estimation.
 
 ## Project Structure
-- `PredictRegres.py`: The main Python script containing the data processing and modeling logic.
-- `PredictRegres.ipynb`: Jupyter Notebook used for initial exploration and visualization.
+- `PredictRegres.py`: .
+- `PredictRegres.ipynb`: The main script containing the initial exploration, visualization, the data processing and modeling logic.
 - `car_price.csv`: The dataset used for training and testing.
-- `requirements.txt`: List of Python dependencies.
 
 ## Methodology
 1. **Preprocessing**: Handled unit conversion (Lakh/Crore), cleaned numerical strings, and managed categorical variables using One-Hot and Target Encoding.
